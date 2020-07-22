@@ -1,1 +1,1 @@
-# ProjectR
+# Simple Chat Application
