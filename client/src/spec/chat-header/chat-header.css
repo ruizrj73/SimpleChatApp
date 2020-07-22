@@ -1,0 +1,39 @@
+.chatHeaderOuterContainer {
+  display: flex;
+  border-top: 2px solid #D3D3D3;
+  height: 100px;
+  width: 637px;
+  border-bottom: 2px solid #ccd6dd;
+}
+
+.chatHeaderInnerCenterContainer {
+  align-items: center;
+  color: #333333;
+  width: 75%;
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+  padding-left: 160px;
+}
+
+.chatHeaderInnerRightContainer {
+  width: 25%;
+  height: 100px;
+  padding: 20px;
+}
+
+.logoutButton {
+  color: #fff !important;
+  text-decoration: none;
+  font-size: 24px;
+  display: inline-block;
+  border: none;
+  width: 133px;
+  height: 57px;
+  background-color: #666666;
+  border-radius: 10px;
+  float: right;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}

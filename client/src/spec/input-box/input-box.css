@@ -1,0 +1,45 @@
+.form {
+  display: flex;
+  border-top: 2px solid #D3D3D3;
+  height: 100px;
+  width: 637px;
+}
+
+.inputBox {
+  border: none;
+  border-radius: 0;
+  padding: 5%;
+  font-size: 24px;
+  width: 483px;
+  height: 56px;
+}
+
+.inputBoxContainer {
+  width: 75%;
+  height: 100px;
+  padding: 20px;
+}
+
+.inputBox:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+.sendButton {
+  color: #fff !important;
+  text-transform: lowercase;
+  text-decoration: none;
+  font-size: 24px;
+  display: inline-block;
+  border: none;
+  width: 97px;
+  height: 57px;
+  background-color: #666666;
+  border-radius: 10px;
+  float: right;
+}
+
+.sendbuttonContainer {
+  width: 25%;
+  height: 100px;
+  padding: 20px;
+}
