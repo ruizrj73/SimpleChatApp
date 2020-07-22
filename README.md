@@ -1,7 +1,9 @@
 # Simple Chat Application
 
 
-In your MySQL Server Database, execute the script inside sql-script folder to create the databse for SimpleChatApp. Modify the server/config/index.js file and use your MySQL Server configuration
+### Prepare MySQL Database
+
+In your MySQL GUI Tools, execute the script inside sql-script folder to create the databse for Simple Chat Application. Modify the server/config/index.js file and use your MySQL Server configuration
 
 
 ### Install Dependencies
