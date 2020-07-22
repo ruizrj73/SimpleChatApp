@@ -15,7 +15,7 @@ const SignUp = () => {
                 </div>
                 <div className='inputContainer'>
                     <input placeholder='User name' className='signUpInput' type='text' onChange={(event) => setUsername(event.target.value)} />
-                    <input placeholder='password' className='signUpInput' type='text' onChange={(event) => setPassword(event.target.value)} />
+                    <input placeholder='password' className='signUpInput' type="password" onChange={(event) => setPassword(event.target.value)} />
                 </div>
                 <Link onClick={event => (!username || !password) ? event.preventDefault() & alert('username & password cannot be blank') : null} to={`/chat?username=${username}&password=${password}`}>
                     <button className='signUpButton' type='submit'>Sign up / Log in</button>
